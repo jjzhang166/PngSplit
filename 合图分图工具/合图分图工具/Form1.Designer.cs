@@ -56,6 +56,8 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.导出10进制颜色值ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.导出16进制颜色值ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.尺寸缩放ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
@@ -187,9 +189,11 @@
             this.最适尺寸裁剪ToolStripMenuItem,
             this.toolStripSeparator3,
             this.导出10进制颜色值ToolStripMenuItem,
-            this.导出16进制颜色值ToolStripMenuItem});
+            this.导出16进制颜色值ToolStripMenuItem,
+            this.toolStripSeparator6,
+            this.尺寸缩放ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(175, 242);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(175, 292);
             // 
             // 导出所有子图ToolStripMenuItem
             // 
@@ -287,6 +291,18 @@
             this.导出16进制颜色值ToolStripMenuItem.ToolTipText = "导出当前图像的所有像素值，为16进制ARGB串";
             this.导出16进制颜色值ToolStripMenuItem.Click += new System.EventHandler(this.导出16进制颜色值ToolStripMenuItem_Click);
             // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(171, 6);
+            // 
+            // 尺寸缩放ToolStripMenuItem
+            // 
+            this.尺寸缩放ToolStripMenuItem.Name = "尺寸缩放ToolStripMenuItem";
+            this.尺寸缩放ToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.尺寸缩放ToolStripMenuItem.Text = "尺寸缩放";
+            this.尺寸缩放ToolStripMenuItem.Click += new System.EventHandler(this.尺寸缩放ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -335,6 +351,8 @@
         private System.Windows.Forms.ListBox listBox;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem 导出两倍尺寸ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripMenuItem 尺寸缩放ToolStripMenuItem;
     }
 }
 

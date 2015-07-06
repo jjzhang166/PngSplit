@@ -135,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pngSplit.ico" />
+    <None Include="Resources\linkLabel.png" />
     <None Include="Resources\shrinkMode.jpg" />
     <None Include="Resources\TransBg.bmp" />
   </ItemGroup>

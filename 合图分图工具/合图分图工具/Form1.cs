@@ -496,5 +496,14 @@ namespace PngSplit
             F.MessageWithOpen("成功导出两倍尺寸图像", Dir);
         }
 
+        private void 尺寸缩放ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int index = listBox.SelectedIndex;
+            Form2.imge = buildsPics(index);
+            Form form = new Form2();
+            form.StartPosition = FormStartPosition.CenterParent;
+            form.ShowDialog();
+        }
+
     }
 }
